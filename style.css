@@ -1,1 +1,261 @@
-test
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #252e34;
+	width: 100%;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#logo {
+	float: left;
+	width: 300px;
+	margin-top: 10px;
+}
+
+#navigation {
+	margin-top: 0px;
+	float: right;
+	margin-bottom: 5px;
+}
+
+#content {
+	width: 960px;
+	/*border: 1px solid white;*/
+	margin: 0 auto;
+}
+
+#cbp-fwslider {
+}
+
+#footer {
+	height: 80px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background: #555;
+	position: fixed;
+	box-shadow: 1px -1px 15px rgba(0,0,0,0.6);
+	border-top: 1px solid white;
+	opacity: 1;
+}
+
+.left-footer {
+	float: left;
+}
+
+.right-footer {
+	float: right;
+	margin-right: 50px;
+}
+
+.third-footer {
+	float: right;
+	margin-right: 20px;
+}
+
+.third-footer a img {
+		margin-top:							10px;
+		width:								35px;
+		height:								35px;
+		box-shadow:							1px 1px 2px rgba(0,0,0,0.5);
+		margin-right:						5px;
+		border-radius:						5px;
+}
+
+.menu-text {
+	font-size: 10px;
+	margin-top: 2px;
+}
+
+.menu-current {
+	margin: 0;
+	padding: 0;
+	color: #ff9c00;
+}
+
+.hr {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+
+.about-img {
+	float: left;
+	margin: 8px 30px 0px 10px;
+}
+
+.about-text {
+	float: left;
+	margin-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+}
+
+h2 {
+	margin: 0 auto;
+	margin-top: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+}
+
+#navigation ul {
+		float: right;
+        list-style-type: none; 
+}
+
+#navigation li {
+	display: inline;
+	float: right;
+	margin-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
+}
+ 
+#navigation ul li a, a:visited { 
+        text-decoration: none; 
+        padding: 0em 1em; 
+        color: #FFF; 
+		float: right;
+        background: #252e34;
+		display: block;
+		border-left: 0.15em solid #FFF;
+        } 
+ 
+#navigation ul li a:hover, a:active { 
+        color: #999;
+		float: right;
+        background: #252e34;
+		border-left: 0.15em solid #999;
+        } 
+
+img[src="logo.png"]{
+	width: 80%;
+}
+
+/*Boxes + Text - Content Area*/
+.box1, .box2, .box3 {
+    display: block;
+    width: 300px;
+    height: 150px;
+	margin-left: 224px;
+	margin-top: 250px;
+    position: absolute;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.box1 {
+    background: #FFF;
+    top: 200px;
+    left: 0;
+}
+
+.box1.move {
+    width: 300px;
+    height: 140px;
+    top: 40px;
+    left: 0;
+}
+
+.box2 {
+    background: #ff9c00;
+    top: 200px;
+    left: 320px;
+}
+
+.box2.move {
+    width: 300px;
+    height: 140px;
+    top: 40px;
+    left: 0;
+}
+
+.box3 {
+    background: #898989;
+    top: 200px;
+    left: 640px;
+}
+
+.box3.move {
+    width: 300px;
+    height: 140px;
+    top: 40px;
+    left: 0;
+}
+
+.text1, .text2, .text3 {
+    display: block;
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 355px;
+    left: 340px;
+    opacity: 0;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.text1.show {
+    opacity: 1;
+    top: 275px;
+	margin-left: 205px;
+}
+
+.text2.show {
+    opacity: 1;
+    top: 275px;
+	margin-left: 205px;
+}
+
+.text3.show {
+    opacity: 1;
+    top: 275px;
+	margin-left: 205px;
+}
+
+/* Boxes med inkluderet javascript
+<div id="boxes">
+<div class="box1">About</div>
+<p class="text1">Information 1</p>
+
+<div class="box2">Design</div>
+<p class="text2">Information 2</p>
+
+<div class="box3">Kodning</div>
+<p class="text3">Information 3</p>
+</div>*/
+
+.footer-text {
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.75em;
+	margin: 20px;
+	text-shadow: 1px 0px 3px #000;
+	
+}
+
+a:link {
+	color: #ff9c00;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #ff9c00;
+}
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+a:active {
+	text-decoration: none;
+}
